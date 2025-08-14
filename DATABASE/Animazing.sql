@@ -105,7 +105,7 @@ CREATE TABLE favoritos (
 INSERT INTO usuarios (nombre, correo_electronico, contraseña) VALUES
 ('Juan Pérez', 'juan.perez1@example.com', '123456'),
 ('María Gómez', 'maria.gomez@example.com', 'abcdef'),
-('Carlos López', 'carlos.lopez@example.com', 'qwerty');
+('sebastian guzman', 'sebastianguzman266@gmail.com', 'Sebas123');
 
 
 -- Insertar roles

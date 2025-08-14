@@ -19,10 +19,16 @@ require_once __DIR__ . "/../Config/conexion.php";
             display: flex;
             margin: 0;
             font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
             background-color: #a3c8c4
         }
         .sidebar {
              width: 220px;
+=======
+        }
+        .sidebar {
+            width: 220px;
+>>>>>>> 323b2cd11e826b4dd20322f0d93d9ae1699dfecf
             position: fixed; /* Siempre visible */
             height: 100vh;
             background-color: #1e1e2f;
@@ -45,6 +51,7 @@ require_once __DIR__ . "/../Config/conexion.php";
             text-decoration: none;
         }
         .contenido {
+<<<<<<< HEAD
             margin-left: 220px; /* espacio para la barra lateral */
             padding: 20px;
             background: #a3c8c4;
@@ -52,6 +59,11 @@ require_once __DIR__ . "/../Config/conexion.php";
             min-height: 100vh;
             box-sizing: border-box;
             display: block;
+=======
+            margin-left: 220px; /* Deja espacio a la sidebar */
+            padding: 20px;
+            flex: 1;
+>>>>>>> 323b2cd11e826b4dd20322f0d93d9ae1699dfecf
         }
         /* Modal para Leer más */
         .modal {
@@ -122,6 +134,10 @@ require_once __DIR__ . "/../Config/conexion.php";
             $img_url = "/animazing/assets/Css/img/" . $img_file;
             if (empty($img_file) || !file_exists($img_path)) {
                 $img_url = "/animazing/assets/Css/img/default.jpg";
+            $img_path = $_SERVER['DOCUMENT_ROOT'] . "/Animazing/assets/Css/img/" . $img_file;
+            $img_url = "/Animazing/assets/Css/img/" . $img_file;
+            if (empty($img_file) || !file_exists($img_path)) {
+                $img_url = "/Animazing/assets/Css/img/default.jpg";
             }
         ?>
             <div class='tarjeta'>

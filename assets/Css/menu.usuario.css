@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    background: linear-gradient(135deg, #E8F0FF, #F5F5F5);
+    background-color: #f4f4f4;
 }
 
 /* Sidebar */
